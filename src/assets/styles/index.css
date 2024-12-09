@@ -1,0 +1,71 @@
+:root {
+    --black: #020203;
+    --Spring-green: #1AFA91;
+    --Aureolin: #FFE539;
+    --Aqua: #54FAFD;
+    --white: #ffffffff;
+    --Inputs-bg: #1C1D1E;
+    --Lines:#a2a5a086;
+    --Glassmorphic: backdrop-filter: blur(10px);
+    --Menus-bg:#2322202a;
+    --background: #121213;
+
+}
+@tailwind base;
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'San Francisco', Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80.5%;
+    background-color: #020203
+}
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* position: ; */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+    overflow-x: hidden;
+}
+
+
+.component-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.component-box-animation {
+    animation: fade-in 1s ease-in-out;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.smooth-scroll {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.Neumorphism {
+    border-radius: 10px;
+    background: #878282;
+    box-shadow: inset 24px 24px 49px #686464,
+                inset -24px -24px 49px #a6a0a0;
+              
+}

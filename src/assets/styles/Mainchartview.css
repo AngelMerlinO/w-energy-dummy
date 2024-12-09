@@ -1,0 +1,22 @@
+
+
+.col-md-5,
+.col-md-7 {
+  flex-basis: 50%;
+}
+
+.colorNotBlack {
+  /* background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba(180, 180, 181, 0.214);
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+  background: rgba(112, 112, 112, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.6px);
+  -webkit-backdrop-filter: blur(3.6px);
+  border: 1px solid rgba(112, 112, 112, 1);
+
+}

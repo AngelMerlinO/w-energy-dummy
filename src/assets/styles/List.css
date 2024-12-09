@@ -1,0 +1,31 @@
+.font-montserrat {
+    font-family: Montserrat, sans-serif;
+}
+
+.text-5xl {
+    font-size: 1.25rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.label {
+    font-size: 50%;
+    font-weight: 700;
+}
+
+.label-container {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.borderEspecial:hover {
+    border-radius:0% 100% 6% 94% / 94% 6% 94% 6% ;
+}
+
+.borderEspecial:hover {
+    border-radius: 0% 100% 6% 94% / 94% 6% 94% 6%  ;
+    border-color:var(--Lines);
+}
